@@ -1,0 +1,210 @@
+/*global*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Teko", sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+/*ultilities*/
+
+/*header*/
+.site-header {
+  background-image: url(../img/header.jpg);
+  height: 400px;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+}
+/*about us*/
+#info {
+  font-size: 1.5rem; /*1rem=16px*/
+}
+@media (max-width: 768px) {
+  #info {
+    display: none;
+  }
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+.flex-item {
+  text-align: center;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header p {
+  color: white;
+}
+.site-header a {
+  color: white;
+  margin-right: 20px;
+}
+.site-header h1 {
+  color: white;
+}
+
+.button-details {
+  background-color: brown;
+  color: white;
+  font-size: 20px;
+  display: block;
+  text-transform: uppercase;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  margin-left: 30px;
+  text-decoration: none;
+}
+.button-details:active {
+  background-color: rgb(34, 20, 117);
+  color: yellow;
+}
+
+.houses-item-text {
+  background-color: rgb(243, 238, 238);
+  width: 100%;
+}
+
+.houses-item {
+  background-color: rgb(243, 235, 235);
+  margin: 5px;
+}
+
+li img {
+  margin-right: 10px;
+}
+fieldset {
+  padding: 10px;
+}
+label {
+  display: block;
+}
+input,
+textarea {
+  background-color: #dedede;
+  display: block;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  width: 80%;
+}
+
+select {
+  background-color: #dedede;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  padding: 5px;
+}
+
+#button-send {
+  margin-top: 20px;
+  background-color: rgb(66, 234, 66);
+  display: block;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+  width: 40px;
+  height: 30px;
+}
+
+.footer-img {
+  background-image: url(../img/encuentra.jpg);
+  width: 100%;
+  height: 250px;
+  align-content: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  background-position: center center;
+}
+.button-footer {
+  background-color: brown;
+  color: white;
+  font-size: 20px;
+  display: block;
+  text-transform: uppercase;
+  padding: 10px;
+
+  text-align: left;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.leftcontainer {
+  float: left;
+  width: 70%;
+}
+
+.rightcontainer {
+  float: left;
+  width: 30%;
+  padding-left: 100px;
+}
+@media screen and (max-width: 768px) {
+  .leftcontainer,
+  .rightcontainer {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.blogimg {
+  width: 100%;
+  padding: 20px;
+  height: 300px;
+  background-image: url(/img/blog1.jpg);
+  background-position: center;
+  background-size: contain;
+}
+.blogimg2 {
+  width: 100%;
+  padding: 20px;
+  height: 300px;
+  background-image: url(/img/blog2.jpg);
+  background-position: center;
+  background-size: contain;
+}
+.blogimg3 {
+  width: 100%;
+  padding: 20px;
+  height: 300px;
+  background-image: url(/img/blog3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.containerblog {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: rgb(186, 160, 134);
+}

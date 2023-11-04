@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th,
+    td {
+      padding: 5px;
+      text-align: center;
+    }
+    .error {
+      background-color: rgb(241, 182, 182);
+      color: rgb(99, 6, 6);
+    }
+  </style>
+  <body>
+    <h1>Tables in HTML</h1>
+    <table>
+      <thead>
+        <th>Header 1</th>
+        <th>Header2</th>
+        <th>Header3</th>
+        <th>Header4</th>
+      </thead>
+      <tr>
+        <td>Data 1</td>
+        <td>Data 2</td>
+        <td>Data 3</td>
+        <td>Data 4</td>
+      </tr>
+      <tr>
+        <td>Data 1</td>
+        <td class="error">Data 2</td>
+        <td>Data 3</td>
+        <td>Data 4</td>
+      </tr>
+    </table>
+  </body>
+</html>
+<footer class="site-footer">
+  <div class="container">
+    <p>We have the house of your dreams</p>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis optio
+      labore eius sed quam minus minima blanditiis, dolores aspernatur natus
+      aperiam laborum, esse ipsum alias nisi quidem iure ex consectetur!
+    </p>
+    <a class="button" href="#">Contact us</a>
+  </div>
+</footer>
+/* footer */ .site-footer{ background-image: url(../images/img/encuentra.jpg);
+background-position: bottom bottom; background-size: cover; height: 300px;
+color: white; display: flex; align-items: center; }
